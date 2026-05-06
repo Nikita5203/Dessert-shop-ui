@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title>
+        <link rel="stylesheet" href="OurWebsite.css">
+        <style>
+          img{
+             width: 200px;
+             height: 300px;
+             border: 3px dodgerblue solid;
+             border-radius: 20px;
+          }
+          .Waffle{
+            border: 3px dodgerblue solid;
+            border-radius: 20px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.5s ease-in-out;
+          }
+          .SweetDishes{
+            display: flex;
+            justify-content: space-evenly;
+            transition: all 0.5s ease-in-out;
+          }
+          .SweetDishes:hover .Waffle{
+            transform: scale(0.6) 
+          }
+          .SweetDishes .Waffle:hover{
+            transform: scale(1) rotate(3deg);
+            background-color: dodgerblue;
+            border: 2px solid black;
+          }
+          header{
+            background-color: dodgerblue;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+          }
+
+          footer{
+            background-color: dodgerblue;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+          }
+          h1{
+             color: brown;
+          }
+          h3{
+            color: brown;
+          }
+
+        </style>
+    </head>
+    <body>
+        <header>Dessert-shop-ui
+        </header>
+        <br><br><br>
+        <div class="SweetDishes">
+         <div class="Waffle">
+        <h1>Monday offer</h1>
+        <img src="waffle.jpg" alt="Main Image here">
+        <h3>Waffle at 99</h3>
+        </div>
+
+          <div class="Waffle">
+        <h1>Donuts</h1>
+        <img src="donuts.jpg" alt="Main Image here">
+        <h3>Best donuts</h3>
+        </div>
+
+         <div class="Waffle">
+        <h1>Chocolate Cake</h1>
+        <img src="Cake.jpg" alt="Main Image here">
+        <h3>Starting price is 400</h3>
+        </div>
+
+         <div class="Waffle">
+        <h1>Shakes</h1>
+        <img src="shakes.jpg" alt="Main Image here">
+        <h3>Mango,Chocolate,Kitkat.. <br> All types of Shakes</h3>
+        </div>
+
+         <div class="Waffle">
+        <h1>Ice-Cream</h1>
+        <img src="icecream.jpg" alt="Main Image here">
+        <h3>Vanila,butterscotch,<br> chocolate,etc...flavours</h3>
+        </div>
+
+        </div>
+<br><br><br>
+<footer>
+    bestdessert@shop.com
+</footer>
+
+    </body>
+</html>
