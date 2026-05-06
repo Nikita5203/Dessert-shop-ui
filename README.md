@@ -34,6 +34,10 @@ This project was created to practice:
 - Add online ordering feature
 - Improve mobile design
 
+## 📸 Project Preview
+
+![Preview](preview.png)
+
 ## 👨‍💻 Author
 
 Made with Nikita Maurya
